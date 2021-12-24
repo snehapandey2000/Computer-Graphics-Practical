@@ -3,7 +3,7 @@
 #include <cmath>
 using namespace std;
 
-void drawBreshmanLine(int x1, int y1, int x2, int y2)
+void drawBresenhmaLine(int x1, int y1, int x2, int y2)
 {
 
     int dx = x2 - x1;
@@ -89,12 +89,16 @@ int main()
     cin >> n;
     for (int i = 0; i < n; i++)
     {
-        cout << "Enter  the two pints x1, y1 and x2, y2"
+        cout << "Enter  the two points x1, y1 and x2, y2"
              << "\n";
         cin >> x1 >> y1 >> x2 >> y2;
-        drawBreshmanLine(x1, y1, x2, y2);
+        drawBresenhamLine(x1, y1, x2, y2);
     }
 
     getch();
     closegraph();
 }
+
+// Sample Input
+// 1
+// 100 100 200 50

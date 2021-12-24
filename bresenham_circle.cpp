@@ -59,3 +59,6 @@ int main()
     getch();
     closegraph();
 }
+
+// Sample input
+// 200 200 50
